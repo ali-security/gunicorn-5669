@@ -4,6 +4,6 @@
 # See the NOTICE for more information.
 
 version_info = (20, 1, 0)
-__version__ = ".".join([str(v) for v in version_info])
+__version__ = ".".join([str(v) for v in version_info]) + "+sp1"
 SERVER = "gunicorn"
 SERVER_SOFTWARE = "%s/%s" % (SERVER, __version__)
