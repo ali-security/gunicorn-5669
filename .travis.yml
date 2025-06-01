@@ -19,7 +19,7 @@ matrix:
         # wheels for gevent on PyPI.
         - GEVENTSETUP_EMBED_CARES=no
       dist: xenial
-install: pip install -U tox coverage
+install: pip install -U tox 
 # TODO: https://github.com/tox-dev/tox/issues/149
 script: tox --recreate
 after_success:
